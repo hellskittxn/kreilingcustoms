@@ -22,6 +22,7 @@
 }
 .right ul{
     display:flex;
+    flex-wrap:nowrap;
 }
 .right ul li {
     width: 5rem;

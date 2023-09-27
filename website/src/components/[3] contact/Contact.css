@@ -13,3 +13,9 @@
 .bic {
     margin-right: 0.5rem;
 }
+
+@media (max-width: 400px) {
+    .info {
+        flex-direction: column;
+    }
+}
