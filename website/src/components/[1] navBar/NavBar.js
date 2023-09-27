@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <div className="nav">
       <div className="left">
-        <h1>Kreiling Customs</h1>
+        <h1>Kreiling Marine & Sail</h1> <br/> <h2>Boat Detailing & Services</h2>
       </div>
       <div className="right">
         <ul>

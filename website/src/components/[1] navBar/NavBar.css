@@ -1,11 +1,21 @@
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgb(117, 255, 255);
-    padding: 1rem;
+    padding: 1.25rem;
+    align-items: center;
+}
+.left h1 {
+    font-size: 1.5rem;
+}
+.left h2{
+    font-size: 1.25rem;
+}
+.right {
+    align-items: center;
 }
 .right ul{
-    display: flex;
+    display:flex;
 }
 .right ul li {
     width: 5rem;
