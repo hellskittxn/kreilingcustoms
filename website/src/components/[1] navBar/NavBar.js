@@ -1,4 +1,5 @@
 import './NavBar.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function NavBar() {
   return (
@@ -8,10 +9,10 @@ function NavBar() {
       </div>
       <div className="right">
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Contact</a></li>
+            <li class="li-icons"><i class="bin bi-house"></i><a href="">Home</a></li>
+            <li class="li-icons"><i class="bin bi-tools"></i><a href="">Services</a></li>
+            <li class="li-icons"><i class="bin bi-currency-dollar"></i><a href="">Pricing</a></li>
+            <li class="li-icons"><i class="bin bi-telephone"></i><a href="">Contact</a></li>
         </ul>
       </div>
     </div>

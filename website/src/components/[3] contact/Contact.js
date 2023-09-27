@@ -4,10 +4,10 @@ function Contact() {
   return (
     <div className="contact">
       <ul className="info">
-            <li>Devin Kreiling</li>
-            <li>270-312-8850</li>
-            <li>devinklipich@yahoo.com</li>
-            <li>Louisville, KY</li>
+            <li><i class="bic bi-person-badge"></i>Devin Kreiling</li>
+            <li><i class="bic bi-telephone-fill"></i><i>270-312-8850</i></li>
+            <li><i class="bic bi-envelope-fill"></i><i>devinklipich@yahoo.com</i></li>
+            <li><i class="bic bi-geo-alt-fill"></i><i>Louisville, KY</i></li>
       </ul>
     </div>
   );

@@ -1,15 +1,21 @@
 .nav {
     display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(117, 255, 255);
-    padding: 1.25rem;
-    align-items: center;
+    justify-content: space-around;
+    background-color: #25ADE0;
+    padding: 1.5rem;
 }
 .left h1 {
-    font-size: 1.75rem;
+    font-size: 2.25rem;
+    text-align: center;
+    color: white;
+    font-family: 'Seaweed Script', cursive;
 }
 .left h2{
     font-size: 1.25rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: white;
+    font-style: italic;
 }
 .right {
     align-items: center;
@@ -22,15 +28,16 @@
 }
 .right ul li a {
     text-decoration: none;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
 }
-
-@media (max-width: 600px) {
-    .nav {
-        flex-direction: column;
-        text-align: center;
-        font-size: 1.2rem;
-    }
-    .nav .left {
-        padding: 1rem;
-    }
+.bin {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+.li-icons {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 1rem;
 }
