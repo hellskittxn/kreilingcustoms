@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(117, 255, 255);
+    padding: 1rem;
+}
+.right ul{
+    display: flex;
+}
+.right ul li {
+    width: 5rem;
+}
+.right ul li a {
+    text-decoration: none;
+}
+
