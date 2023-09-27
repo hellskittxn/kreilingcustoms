@@ -1,0 +1,10 @@
+.s-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+.s-info li {
+    background-color: rgb(118, 179, 183);
+    padding: 1rem;
+    border-radius: 2rem;
+}
